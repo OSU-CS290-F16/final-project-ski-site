@@ -1,0 +1,44 @@
+h1{
+	font-size: 40px;
+	color: black;
+	font-family: cursive;
+}
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #00FFFF;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+	display: inline-block;
+	color: black
+	text-align: center;
+	padding: 16px 18px;
+	text-decoration: none;
+	transition: .2s;
+	font-size: 18px;
+	font-family: serif;
+}
+ul.topnav li a: hover {background-color: #7FFFD4;}
+ul.resorts li:{
+	color:blue;
+	text-align: center;
+	text-decoration:blink;
+	font-size: 30px;
+	font-family: cursive;
+}
+ul.states li a{ 
+	color: red;
+	text-align: center;
+	padding: 0;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: serif;
+ }
+p{
+	color: blue;
+	font-size: 20px;
+}
